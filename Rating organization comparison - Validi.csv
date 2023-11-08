@@ -1,0 +1,58 @@
+Nome,Pagina web,Dataset,Tipologia,Grado di reputabilità di testate giornalistiche,Criteri automatizzabili,Metodologia di stima della reputabilità,Altre informazioni,
+Newsguard,https://www.newsguardtech.com/,Disponibile solamente a pagamento,Società,Si,"Regularly corrects or clarifies errors
+
+Website discloses ownership and financing
+
+Clearly labels advertising LabAds The site makes clear which content is paid for and which
+
+Reveals who’s in charge, including possible conflicts of interest
+
+The site provides the names of content creators, along with either contact or biographical information",Annotatori professionali,Articolo Marinella e Manuel,
+Ground News,https://ground.news/,Disponibile solamente a pagamento,Società,"Si ma basato sul lavoro di altri (Ad Fontes Media, Media Bias Fact Check and Wikipedia) e suddivison in tre fasce",No perché basata sul lavoro fatto da altri,"Derivata da altre fonti
+",,
+Ad Fontes Media (AFM),https://adfontesmedia.com/,Disponibile solamente a pagamento oppure in modalità gratita per 283 domini.,Società,Si,"No, vedi rapporto",Annotatori professionali,,
+Media Bias/Fact Check,https://mediabiasfactcheck.com/,https://mediabiasfactcheck.com/,Società,Si,"Traffic/Longevity:
+   High Traffic: 2 points
+   Medium Traffic: 1 point
+   Minimal Traffic: 0 points
+   Bonus: 1 point for sources existing for 10 years or more
+   
+Press Freedom (applicable for sources from countries with significant censorship or government control):
+   Limited Freedom: -1 point
+   Total Oppression: -2 points",Annotatori professionali,,
+GDI,https://www.disinformationindex.org/,Disponibile solamente a pagamento,Società,Si,"Attribution
+Comment policies 
+Funding
+Ownership",Annotatori professionali,Articolo Marinella e Manuel,
+Wikipedia,https://wikipedia.org/,https://en.wikipedia.org/wiki/Wikipedia:Reliable_sources/Perennial_sources,Organizzazione senza scopo di lucro,Si,No,Utenti non specializzati,,
+Creddler,http://creddle.io/,https://credder.com/,Società,Sì,No,Annotatori professionali e utenti non specializzati,,
+Melissa Zimdars,https://scholar.google.com/citations?user=DxL6kqsAAAAJ&hl=en,https://docs.google.com/document/d/10eA5-mCZLSS4MQY5QGb5ewC3VAL6pLkT53V_81ZyitM/preview,Articolo di giornale,"No, ma distingue in categorie che sono state astratte in uno score dallo studio di ""High level of agreement across different news domain quality ratings""",No,Utenti non specializzati,Articolo di giornale dedicato,
+Poly Fact,https://www.politifact.com/,https://e.infogr.am/politifacts_fake_news_almanac?parent_url=https%3A%2F%2Fwww.politifact.com%2Farticle%2F2017%2Fapr%2F20%2Fpolitifacts-guide-fake-news-websites-and-what-they%2F&src=embed#,Organizzazione senza scopo di lucro,"No, ma distingue in categorie che sono state astratte in uno score dallo studio di ""High level of agreement across different news domain quality ratings""",No,Annotatori professionali,Articolo di giornale dedicato,
+Butac,https://www.butac.it/,https://github.com/flodd/butac_black_list/tree/main,Sito web / Blog,"No, ma distingue in categorie che sono state astratte in uno score dallo studio di ""High level of agreement across different news domain quality ratings""",No,Utenti non specializzati,Articolo all'interno del sito,
+Bufale,https://www.bufale.net/,https://www.bufale.net/the-black-list-la-lista-nera-del-web/,Sito web / Blog,"No, ma distingue in categorie che sono state astratte in uno score dallo studio di ""High level of agreement across different news domain quality ratings""",No,Annotatori professionali,Articolo di giornale dedicato,
+Bufalopedia,https://bufalopedia.blogspot.com/,https://bufalopedia.blogspot.com/p/siti-creatori-di-bufale.html,Sito web / Blog,"No, ma distingue in categorie che sono state astratte in uno score dallo studio di ""High level of agreement across different news domain quality ratings""",No,Non specificato,,
+Grinberg et al,https://www.science.org/doi/10.1126/science.aau2706,https://github.com/LazerLab/twitter-fake-news-replication/blob/master/util/domain_lists/snopes_annotated.tsv,Articolo scientifico,"Sì
+
+
+",No,"Derivata da altre fonti
+",Link all'articolo,
+BuzzFeed News,https://www.buzzfeednews.com/article/craigsilverman/inside-the-partisan-fight-for-your-news-feed,https://github.com/BuzzFeedNews/2017-08-partisan-sites-and-facebook-pages/blob/master/data/all-partisan-sites.csv,Articolo di giornale,"Scottsdale, Ariz. **",No,Annotatori professionali,,
+FAKE NEWS WATCH,Sito chiuso e disponibile solo tramite archive.org,https://web.archive.org/web/20180213181029/http://www.fakenewswatch.com/,Non specificato,Imposter si,No,Utenti non specializzati,,
+Snopes,https://www.snopes.com/,https://www.snopes.com/news/2016/01/14/fake-news-sites/,Società,"No, ma distingue in categorie che sono state astratte in uno score dallo studio di ""High level of agreement across different news domain quality ratings""",No,Annotatori professionali,,
+FactCheck.org ,https://www.factcheck.org/,https://www.factcheck.org/2017/07/websites-post-fake-satirical-stories/,Articolo di giornale,"No, ma distingue in categorie che sono state astratte in uno score dallo studio di ""High level of agreement across different news domain quality ratings""",No,Annotatori professionali,,
+Columbia Journalism review,https://www.cjr.org/,https://docs.google.com/spreadsheets/d/1ck1_FZC-97uDLIlvRJDTrGqBk0FuDe9yHkluROgpGS8/edit#gid=1144285784,Articolo di giornale,Sì,"Site Rank
+Year online",Non specificato,,
+iffy.news,iffy.news,https://iffy.news/index/,Sito web / Blog,Sì,No,Utenti non specializzati,,
+WOT: My Web of Trust,https://www.mywot.com/,Non disponibile un dataset ma solamente un'esensione di del browser ,Società,Sì,No,Utenti non specializzati + algorimo,,
+OS: OpenSources,Sito chiuso http://www.opensources.co/,Non trovato,Sito web / Blog,Sì,No,Utenti non specializzati,,
+NTT: Newsroom Transparency Tracker,https://www.newsroomtransparencytracker.com,https://www.newsroomtransparencytracker.com/#tracker,Organizzazione senza scopo di lucro,Sì,Da vedere,Annotatori professionali,,
+Explainable Machine Learning for Fake News Detection,https://dl.acm.org/doi/10.1145/3292522.3326027,Non trovato/non rilasciato,Articolo scientifico,Sì,"Sì e no perché è stato calcolato con  ""Alexa Ranking"" che però non esiste più",Algoritmo,,In più in questo studio fanno una overview dei lavori passati per i vari task di identificazione nel campo delle fake news e mettono dei lavori in una tabellla che secondo me non sono giusti per la stima della reputbilità di una sorgente. 
+OpenSources,http://www.opensources.co/,https://github.com/BigMcLargeHuge/opensources/blob/master/sources/sources.csv,Non specificato,Sì,"Title/Domain Analysis
+About Us Analysis
+Writing Style Analysis (in parte)
+Social Media Analysis",Non specificato,,
+FakeNewsCorpus,https://github.com/several27/FakeNewsCorpus,https://github.com/several27/FakeNewsCorpus/releases/tag/v1.0,Non specificato,Sì,"Title/Domain Analysis
+About Us Analysis
+Writing Style Analysis (in parte)
+Social Media Analysis",Non specificato,,
+Fighting misinformation on social media usingcrowdsourced judgments of news source quality,https://www.pnas.org/doi/epdf/10.1073/pnas.1806781116,https://osf.io/6bptd/,Articolo scientifico,Sì,No,Annotatori professionali e utenti non specializzati,,
