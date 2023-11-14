@@ -1,5 +1,5 @@
-Nome,Pagina web,Dataset,Tipologia,Grado di reputabilità di testate giornalistiche,Criteri automatizzabili,Metodologia di stima della reputabilità,Altre informazioni,
-Newsguard,https://www.newsguardtech.com/,Disponibile solamente a pagamento,Società,Si,"Regularly corrects or clarifies errors
+Nome,Pagina web,Paywall,Url dataset,Tipologia,Grado di reputabilità di testate giornalistiche,Criteri automatizzabili,Metodologia di stima della reputabilità,Criteri STRUTTURATI per la stima della reputabilità,Provenienza dati,Altre informazioni,Risorse utili
+Newsguard,https://www.newsguardtech.com/,Sì,,Società,Si,"Regularly corrects or clarifies errors
 
 Website discloses ownership and financing
 
@@ -7,11 +7,27 @@ Clearly labels advertising LabAds The site makes clear which content is paid for
 
 Reveals who’s in charge, including possible conflicts of interest
 
-The site provides the names of content creators, along with either contact or biographical information",Annotatori professionali,Articolo Marinella e Manuel,
-Ground News,https://ground.news/,Disponibile solamente a pagamento,Società,"Si ma basato sul lavoro di altri (Ad Fontes Media, Media Bias Fact Check and Wikipedia) e suddivison in tre fasce",No perché basata sul lavoro fatto da altri,"Derivata da altre fonti
-",,
-Ad Fontes Media (AFM),https://adfontesmedia.com/,Disponibile solamente a pagamento oppure in modalità gratita per 283 domini.,Società,Si,"No, vedi rapporto",Annotatori professionali,,
-Media Bias/Fact Check,https://mediabiasfactcheck.com/,https://mediabiasfactcheck.com/,Società,Si,"Traffic/Longevity:
+The site provides the names of content creators, along with either contact or biographical information",Annotatori e parametri struttrati,"Does not repeatedly publish false content
+Gathers and presents information responsibly
+Regularly corrects or clarifies errors
+Handles the difference between news and opinion responsibly
+Avoids deceptive headlines
+Website discloses ownership and financing
+Clearly labels advertising
+Reveals who’s in charge, including possible conflicts of interest
+The site provides the names of content creators, along with either contact or biographical information",Propri,Articolo Marinella e Manuel,
+Ground News,https://ground.news/,Sì,,Società,"Si ma basato sul lavoro di altri (Ad Fontes Media, Media Bias Fact Check and Wikipedia) e suddivison in tre fasce","Si, perché lo fa un algoritmo",Algoritmo,"Calcolata con un algoritmo dai dati provenienti da:
+Ad Fontes Media, 
+Media Bias Fact Check 
+Wikipedia. (fonte)",Derivati,,
+Ad Fontes Media (AFM),https://adfontesmedia.com/,Sì ma versione demo disponibile,,Società,Si,"No, vedi rapporto",Annotatori e parametri struttrati,"La metodologia di stima della reputabilità delle fonti si basa sulla seguente procedura:
+
+Ogni analista attribuisce a ciascun articolo tre sotto-fattori di affidabilità: 1) Espressione, 2) Veridicità e 3) Titolo/Grafica. Successivamente, l'analista assegna all'articolo un punteggio di affidabilità ""complessivo"". Ogni valutazione viene espressa su una scala numerica da 0 a 64, dove 0 rappresenta l'affidabilità minore e 64 l'affidabilità maggiore.
+
+Ogni analista attribuisce inoltre a ciascun articolo tre sotto-fattori di tendenza politica: 1) Linguaggio, 2) Posizione politica e 3) Confronto. L'analista assegna successivamente all'articolo un punteggio di tendenza politica ""complessivo"". Anche in questo caso, ciascuna valutazione viene espressa su una scala numerica compresa tra -42 (sinistra) e +42 (destra).
+
+Rappoto",Propri,,
+Media Bias/Fact Check,https://mediabiasfactcheck.com/,No,https://mediabiasfactcheck.com/,Società,Si,"Traffic/Longevity:
    High Traffic: 2 points
    Medium Traffic: 1 point
    Minimal Traffic: 0 points
@@ -19,40 +35,134 @@ Media Bias/Fact Check,https://mediabiasfactcheck.com/,https://mediabiasfactcheck
    
 Press Freedom (applicable for sources from countries with significant censorship or government control):
    Limited Freedom: -1 point
-   Total Oppression: -2 points",Annotatori professionali,,
-GDI,https://www.disinformationindex.org/,Disponibile solamente a pagamento,Società,Si,"Attribution
+   Total Oppression: -2 points",Annotatori e parametri struttrati,"Factual Reporting:
+Very High: 4 points
+High: 3 points
+Mostly Factual: 2 points
+Mixed: 1 point
+Low: 0 points
+
+Bias:
+Least Biased/Pro-Science: 3 points
+Right-Center or Left-Center: 2 points
+Left or Right: 1 point
+Questionable/Conspiracy/Pseudoscience: 0 points
+
+Traffic/Longevity:
+High Traffic: 2 points
+Medium Traffic: 1 point
+Minimal Traffic: 0 points
+Bonus: 1 point for sources existing for 10 years or more
+
+Press Freedom (applicable for sources from countries with significant censorship or government control):
+Limited Freedom: -1 point
+Total Oppression: -2 points
+
+Credibility Levels:
+High Credibility: A score of 6 or above.
+Medium Credibility: A score between 3-5 points. Sources lacking an ‘About’ page or ownership information are automatically rated as Medium Credibility.
+Low Credibility: A score of 0-2 points. Sources rated as Questionable, Conspiracy, or Pseudoscience are automatically classified as Low Credibility.
+
+Example Scores:
+
+Reuters 4+3+2+1=10 High
+Bangkok Post: 1+2+2+1 – 1=5 Medium
+The Daily Defender 1+1+0+0=2 Low
+
+Fonte
+",Propri,,
+GDI,https://www.disinformationindex.org/,Sì,,Società,Si,"Attribution
 Comment policies 
 Funding
-Ownership",Annotatori professionali,Articolo Marinella e Manuel,
-Wikipedia,https://wikipedia.org/,https://en.wikipedia.org/wiki/Wikipedia:Reliable_sources/Perennial_sources,Organizzazione senza scopo di lucro,Si,No,Utenti non specializzati,,
-Creddler,http://creddle.io/,https://credder.com/,Società,Sì,No,Annotatori professionali e utenti non specializzati,,
-Melissa Zimdars,https://scholar.google.com/citations?user=DxL6kqsAAAAJ&hl=en,https://docs.google.com/document/d/10eA5-mCZLSS4MQY5QGb5ewC3VAL6pLkT53V_81ZyitM/preview,Articolo di giornale,"No, ma distingue in categorie che sono state astratte in uno score dallo studio di ""High level of agreement across different news domain quality ratings""",No,Utenti non specializzati,Articolo di giornale dedicato,
-Poly Fact,https://www.politifact.com/,https://e.infogr.am/politifacts_fake_news_almanac?parent_url=https%3A%2F%2Fwww.politifact.com%2Farticle%2F2017%2Fapr%2F20%2Fpolitifacts-guide-fake-news-websites-and-what-they%2F&src=embed#,Organizzazione senza scopo di lucro,"No, ma distingue in categorie che sono state astratte in uno score dallo studio di ""High level of agreement across different news domain quality ratings""",No,Annotatori professionali,Articolo di giornale dedicato,
-Butac,https://www.butac.it/,https://github.com/flodd/butac_black_list/tree/main,Sito web / Blog,"No, ma distingue in categorie che sono state astratte in uno score dallo studio di ""High level of agreement across different news domain quality ratings""",No,Utenti non specializzati,Articolo all'interno del sito,
-Bufale,https://www.bufale.net/,https://www.bufale.net/the-black-list-la-lista-nera-del-web/,Sito web / Blog,"No, ma distingue in categorie che sono state astratte in uno score dallo studio di ""High level of agreement across different news domain quality ratings""",No,Annotatori professionali,Articolo di giornale dedicato,
-Bufalopedia,https://bufalopedia.blogspot.com/,https://bufalopedia.blogspot.com/p/siti-creatori-di-bufale.html,Sito web / Blog,"No, ma distingue in categorie che sono state astratte in uno score dallo studio di ""High level of agreement across different news domain quality ratings""",No,Non specificato,,
-Grinberg et al,https://www.science.org/doi/10.1126/science.aau2706,https://github.com/LazerLab/twitter-fake-news-replication/blob/master/util/domain_lists/snopes_annotated.tsv,Articolo scientifico,"Sì
+Ownership",Annotatori e parametri struttrati,"Headline accuracy
+Lede present
+Byline information
+Common coverage
+Recent coverage
+Negative targeting
+Article bias
+Sensational language
+Visual presentation
+Attribution
+Comment policies
+Editorial principles and practices 
+Ensuring accuracy
+Funding
+Ownership",Propri,Articolo Marinella e Manuel,
+Wikipedia,https://wikipedia.org/,No,https://en.wikipedia.org/wiki/Wikipedia:Reliable_sources/Perennial_sources,Organizzazione senza scopo di lucro,Si,No,Utenti non specializzati,No,Propri,"""Frequenza delle discussioni: Le fonti dell'elenco sono quelle che sono state oggetto di più discussioni su Wikipedia, in particolare sulla Bacheca delle fonti attendibili (RSN).
+Profondità e frequenza delle discussioni: L'elenco include i link alle discussioni più approfondite e recenti sull'affidabilità di ciascuna fonte.
+Consenso preliminare: L'elenco riflette il consenso dei redattori di Wikipedia sull'affidabilità di ciascuna fonte.""
+
+Fonte",
+Creddler,http://creddle.io/,No,https://credder.com/,Società,Sì,No,Annotatori professionali e utenti non specializzati,"Credible --> Investigative, Balanced, Well Sourced, Great Context Illogical -- > Speculation, Anecdotal Evidence, Generalization, Stacking the Deck, Appeal to Authority, Straw Man, Slippery Slope, Emotional Appeal, Red Herring, False Dilemma, Moral Equivalency, Ad Hominem, Correlation w/o Causation, Semantics, Begging the Question, Faulty Analogy, Non Sequitur, Bandwagon, Dogmatism, Failing 
+
+Occam's Razor Biased --> Pure Opinion, Hit Piece, Racial Bias, National Bias, Religious Bias, Financial Incentive, Political Agenda ,Gender Bias 
+
+Mistake --> Misused Image/Video, Study Misinterpreted, Misused Term, Science Misrepresented, Factual Error 
+
+Not Credible --> Satire, Surface Level, Lack of Reliable Sources, Sensational
 
 
-",No,"Derivata da altre fonti
-",Link all'articolo,
-BuzzFeed News,https://www.buzzfeednews.com/article/craigsilverman/inside-the-partisan-fight-for-your-news-feed,https://github.com/BuzzFeedNews/2017-08-partisan-sites-and-facebook-pages/blob/master/data/all-partisan-sites.csv,Articolo di giornale,"Scottsdale, Ariz. **",No,Annotatori professionali,,
-FAKE NEWS WATCH,Sito chiuso e disponibile solo tramite archive.org,https://web.archive.org/web/20180213181029/http://www.fakenewswatch.com/,Non specificato,Imposter si,No,Utenti non specializzati,,
-Snopes,https://www.snopes.com/,https://www.snopes.com/news/2016/01/14/fake-news-sites/,Società,"No, ma distingue in categorie che sono state astratte in uno score dallo studio di ""High level of agreement across different news domain quality ratings""",No,Annotatori professionali,,
-FactCheck.org ,https://www.factcheck.org/,https://www.factcheck.org/2017/07/websites-post-fake-satirical-stories/,Articolo di giornale,"No, ma distingue in categorie che sono state astratte in uno score dallo studio di ""High level of agreement across different news domain quality ratings""",No,Annotatori professionali,,
-Columbia Journalism review,https://www.cjr.org/,https://docs.google.com/spreadsheets/d/1ck1_FZC-97uDLIlvRJDTrGqBk0FuDe9yHkluROgpGS8/edit#gid=1144285784,Articolo di giornale,Sì,"Site Rank
-Year online",Non specificato,,
-iffy.news,iffy.news,https://iffy.news/index/,Sito web / Blog,Sì,No,Utenti non specializzati,,
-WOT: My Web of Trust,https://www.mywot.com/,Non disponibile un dataset ma solamente un'esensione di del browser ,Società,Sì,No,Utenti non specializzati + algorimo,,
-OS: OpenSources,Sito chiuso http://www.opensources.co/,Non trovato,Sito web / Blog,Sì,No,Utenti non specializzati,,
-NTT: Newsroom Transparency Tracker,https://www.newsroomtransparencytracker.com,https://www.newsroomtransparencytracker.com/#tracker,Organizzazione senza scopo di lucro,Sì,Da vedere,Annotatori professionali,,
-Explainable Machine Learning for Fake News Detection,https://dl.acm.org/doi/10.1145/3292522.3326027,Non trovato/non rilasciato,Articolo scientifico,Sì,"Sì e no perché è stato calcolato con  ""Alexa Ranking"" che però non esiste più",Algoritmo,,In più in questo studio fanno una overview dei lavori passati per i vari task di identificazione nel campo delle fake news e mettono dei lavori in una tabellla che secondo me non sono giusti per la stima della reputbilità di una sorgente. 
-OpenSources,http://www.opensources.co/,https://github.com/BigMcLargeHuge/opensources/blob/master/sources/sources.csv,Non specificato,Sì,"Title/Domain Analysis
+ Rapporto",Propri,,
+Poly Fact,https://www.politifact.com/,No,https://e.infogr.am/politifacts_fake_news_almanac?parent_url=https%3A%2F%2Fwww.politifact.com%2Farticle%2F2017%2Fapr%2F20%2Fpolitifacts-guide-fake-news-websites-and-what-they%2F&src=embed#,Organizzazione senza scopo di lucro,"No, ma distingue in categorie che sono state astratte in uno score dallo studio di ""High level of agreement across different news domain quality ratings""",No,Giornalisti,No,Propri,Articolo di giornale dedicato,
+Butac,https://www.butac.it/,No,https://github.com/flodd/butac_black_list/tree/main,Sito web / Blog,"No, ma distingue in categorie che sono state astratte in uno score dallo studio di ""High level of agreement across different news domain quality ratings""",No,Giornalisti e utenti non specializzati,No,Propri,"Articolo all'interno del sito: ""L’idea è di aggiornare la lista con le vostre successive segnalazioni, stando attenti, le testate che fanno opinione (me ne avete segnalate tantissime) non sono testate bufalare, ma posti dove qualcuno esprime le proprie idee (giuste o sbagliate), bisogna imparare a distinguere da idee e opinioni (dove tutti siamo liberi di pensare quel che ci pare) e notizie. Un sito che dice ad esempio ” per me è giusta la pena di morte” non è un sito di bufale, come non lo è una pagina che dicesse “Vota Pinco Pallino, gli altri puzzano” “Vota Sempronio, Pinco Pallino è antipatico”! Insomma il tifo politico non è sbagliato, come non lo è avere diversi stili alimentari, o essere curiosi se c’è vita nell’universo! Imparare a distinguere tra chi di queste cose parla con TROPPO trasporto arrivando a spacciare bufale, e chi invece è davvero appassionato ed è capace di avere blog seri e sensati senza dover per forza spacciare fuffa per caviale!"" Fonte""",
+Bufale,https://www.bufale.net/,No,https://www.bufale.net/the-black-list-la-lista-nera-del-web/,Sito web / Blog,"No, ma distingue in categorie che sono state astratte in uno score dallo studio di ""High level of agreement across different news domain quality ratings""",No,Giornalisti e utenti non specializzati,No,Propri,"Articolo di giornale dedicato ""Come promesso, in aggiornamento Black List e add-on. I siti che per più di un anno non abbiano pubblicato bufale o fatto disinformazione potranno essere rimossi come forma di incentivo positivo e critico, mentre le finte testate giornalistiche rimarranno dentro. Aspettiamo come sempre un vostro riscontro in merito, per poter di conseguenza migliorare il nostro servizio."" ",
+Bufalopedia,https://bufalopedia.blogspot.com/,No,https://bufalopedia.blogspot.com/p/siti-creatori-di-bufale.html,Sito web / Blog,"No, ma distingue in categorie che sono state astratte in uno score dallo studio di ""High level of agreement across different news domain quality ratings""",No,Giornalisti,No,Propri,Fonte,
+Grinberg et al,https://www.science.org/doi/10.1126/science.aau2706,No,https://github.com/LazerLab/twitter-fake-news-replication/blob/master/util/domain_lists/snopes_annotated.tsv,Articolo scientifico,"Sì
+
+
+",No,Ricercatori ,"Per stimare la reputabilità delle fonti di informazione, sono state utilizzate tre categorie di fonti di notizie false:
+
+1. Fonti ""black"": websites individuati da fact-checkers, giornalisti e accademici come fonti che pubblicano principalmente notizie inventate. Ci sono stati 171 siti con questa etichetta.
+
+2. Fonti ""red"": siti identificati da Snopes.com come fonti di affermazioni discutibili. Queste fonti diffondono notizie false che riflettono chiaramente un processo editoriale fallace. Sono stati etichettati 64 siti come ""red"".
+
+3. Fonti ""orange"": siti individuati da Snopes.com come fonti di affermazioni che potrebbero essere discutibili, ma gli annotatori non erano così sicuri che queste falsità derivassero da un processo editorialmente sistemico. Sono state etichettate 65 fonti come ""orange"".
+
+Queste classificazioni sono state utilizzate per valutare la reputabilità delle fonti di notizie e confrontare diversi criteri operativi nella definizione di notizie false. In totale, vi sono state 171 fonti ""black"", 64 fonti ""red"" e 65 fonti ""orange"" che sono state individuate almeno una volta nei dati analizzati.",Derivati,"Link all'articolo, Rapporto",
+BuzzFeed News,https://www.buzzfeednews.com/article/craigsilverman/inside-the-partisan-fight-for-your-news-feed,No,https://github.com/BuzzFeedNews/2017-08-partisan-sites-and-facebook-pages/blob/master/data/all-partisan-sites.csv,Articolo di giornale,"Valutazione della credibilità di post postati da testate giornalistiche. Questi dati sono stati utilizzati per astrarre una valutazione della testata dallo studio  ""High level of agreement across different news domain quality ratings"" ",No,Giornalisti,"Mostly True: The post and any related link or image are based on factual information and portray it accurately. This lets them interpret the event/info in their own way, so long as they do not misrepresent events, numbers, quotes, reactions, etc., or make information up. This rating does not allow for unsupported speculation or claims. 
+
+Mixture of True and False: Some elements of the information are factually accurate, but some elements or claims are not. This rating should be used when speculation or unfounded claims are mixed with real events, numbers, quotes, etc., or when the headline of the link being shared makes a false claim but the text of the story is largely accurate. It should also only be used when the unsupported or false information is roughly equal to the accurate information in the post or link. Finally, use this rating for news articles that are based on unconfirmed information. 
+
+Mostly False: Most or all of the information in the post or in the link being shared is inaccurate. This should also be used when the central claim being made is false. No 
+
+Factual Content: This rating is used for posts that are pure opinion, comics, satire, or any other posts that do not make a factual claim. This is also the category to use for posts that are of the “Like this if you think...” variety.",Propri,Fonte,
+FactCheck.org ,https://www.factcheck.org/,No,https://www.factcheck.org/2017/07/websites-post-fake-satirical-stories/,Articolo di giornale,"No, ma distingue in categorie che sono state astratte in uno score dallo studio ""High level of agreement across different news domain quality ratings""",No,Giornalisti,No,Propri,Fonte,
+iffy.news,iffy.news,No,https://iffy.news/index/,Sito web / Blog,Sì,No,Algoritmo,"Classifica la credibilità sulla base delle valutaizoni di MBFC, Global
+Site Rank e misinfo.me",Derivati,"""The links in the MBFC Factual column go to the site’s MBFC review. The site’s name in the far-right column links to search results with fact-checks of that site’s articles. As of June 2021, the Iffy Index lists individual domain’s Misinfo.me credibility rating (between -1 and 1), linked to a detailed report on the site. MisinfoMe’s methodology is well-documented. You can use their online tool to “assesses the credibility of your information source,” including web, Twitter, and Facebook pages."" Fonte",
+MisinfoMe,https://misinfo.me/frontend-v2/home,No,https://misinfo.me/frontend-v2/home,Sito web / Blog,Sì,No,Algoritmo,"MisinfoMe assegna un punteggio di credibilità, che varia da -1 (non credibile) a 1 (credibile), per ogni tweet analizzato.
+
+Il calcolo del punteggio tiene conto di tutte le informazioni di fact-checking disponibili per il link nel tweet, inclusi i giudizi di fact-checking e la reputazione della(o delle) fonte(i) di informazioni valutata dai fact-checkers. Se esistono valutazioni da parte di più fact-checkers, verranno combinate utilizzando un insieme di regole espresse in questo paper ",Derivati,Articolo sceintifico in cui si descrive come funziona l'algorimo sottostante. Esempio,
+WOT: My Web of Trust,https://www.mywot.com/,No,Non disponibile un dataset ma solamente un'esensione di del browser ,Società,Sì,No,Algorimo e utenti non specializzati,"Fornisce uno score generale di ""Safe"" basato sull'algoritmo di WOT e sulle recensioni degli utenti (esempio). Non ho trovato della documentazione su questo algorimo, le uniche spiegazioni sono presenti qui",Propri,,
+NTT: Newsroom Transparency Tracker,https://www.newsroomtransparencytracker.com,No,https://www.newsroomtransparencytracker.com/#tracker,Organizzazione senza scopo di lucro,Sì,"Ethics Policy
+Ownership/ Funding
+Mission/ Coverage Priorities
+Verification/ Fact-checking
+Corrections Policy
+Unnamed Sources Policy
+Masthead/ Leadership
+Founding Date
+Newsroom Contact Info
+Author/ Reporter Bios
+Byline Attribution
+Type of Work Labels
+Diverse Voices Statement
+Diverse Staffing Report
+Trust Project Partner
+",Giornalisti,Fornisce uno score a 3 livelli in cui vengono valutati vari aspetti specifici della reputabilità di una testata giornalistica. Fonte,Propri,"Descritto da ""News Source Credibility in the Eyes of Different Assessors"" nel paragrafo 2.2.6 come: ""Newsroom Transparency Tracker14 is an initiative part of The Trust Project, that shares the information published by media outlets with respect to four Trust Indicators (best practices, journalist expertise, type of work, diverse voices). Each source is characterised by 15 attributes, belonging to one of the indicators, that can be full, partial or none compliant.""",
+Explainable Machine Learning for Fake News Detection,https://dl.acm.org/doi/10.1145/3292522.3326027,No,Non trovato/non rilasciato,Articolo scientifico,Sì,"Sì e no perché è stato calcolato con  ""Alexa Ranking"" che però non esiste più",Algoritmo,"""Credibility and Trustworthiness (CRED). In this feature set, we introduce 7 (seven) new features to capture aspects of credibility (or popularity) and trustworthiness of domains. We collect, using Facebook’s API3 , user engagement metrics of Facebook pages that published news articles (i.e. page talking about count and page fan count). Then, we use the Alexa API to get the relative position of news domain on the Alexa Ranking 4 . Furthermore, using this same API, we collect Alexa’s top 500 newspapers. Based on the hypothesis that some unreliable domains may try to disguise themselves using domains similar to those of well-known newspapers, we define the dissimilarity between domains from the Alexa ranking and news domains in our dataset (measured by the minimum non-zero edit distance) as features. Last, we use indicators of low credibility of domains compiled in [34] as features.""",Derivati,,In più in questo studio fanno una overview dei lavori passati per i vari task di identificazione nel campo delle fake news e mettono dei lavori in una tabellla che secondo me non sono giusti per la stima della reputbilità di una sorgente. 
+OpenSources,https://web.archive.org/web/20170614155000/http://www.opensources.co/,No,https://github.com/BigMcLargeHuge/opensources/blob/master/sources/sources.csv,Sito web / Blog,Sì,"Title/Domain Analysis
 About Us Analysis
 Writing Style Analysis (in parte)
-Social Media Analysis",Non specificato,,
-FakeNewsCorpus,https://github.com/several27/FakeNewsCorpus,https://github.com/several27/FakeNewsCorpus/releases/tag/v1.0,Non specificato,Sì,"Title/Domain Analysis
-About Us Analysis
-Writing Style Analysis (in parte)
-Social Media Analysis",Non specificato,,
-Fighting misinformation on social media usingcrowdsourced judgments of news source quality,https://www.pnas.org/doi/epdf/10.1073/pnas.1806781116,https://osf.io/6bptd/,Articolo scientifico,Sì,No,Annotatori professionali e utenti non specializzati,,
+Social Media Analysis",Ricercatori ,"Our Methods:
+
+Step 1: Title/Domain Analysis. If “.wordpress” “.com.co” appear in the title -- or any slight variation on a well known website-- this is usually a sign there is a problem.
+Step 2: About Us Analysis. Google every title/domain name/anyone listed in the “About Us” section to see if anyone has previously reported on the website (snopes, hoax-slayer, factcheck.org, etc.) or whether it has a Wikipedia page with citations or something similar detailing its background. This is useful for identifying and correctly categorizing lesser known and/or new websites that may be on the up-and-up, such as satirical sources or websites that are explicit about their political orientation.
+Step 3: Source Analysis. Does the website mention/link to a study or source? Look up the source/study. Is it being accurately reflected and reported? Are officials being cited? Can a primary source be located for its quotations? Some media literacy and critical scholars call this triangulation: Verify details, facts, quotes, etc. with multiple sources.
+Step 4: Writing Style Analysis. Does the website follow AP Style Guide? Typically, lack of style guide use signifies questionable, more opinion-oriented practices, and may indicate an overall lack of editing or fact-checking process. Does it frequently use ALL CAPS in headlines and/or body text? Does the headline or body of the text use phrases like ""WOW!!!!""? This stylistic practice and these types of hyperbolic word choices are often used to create emotional responses with readers that is avoided in more traditional journalism and isn’t something that would be permitted or encouraged by the AP Style Guide
+Step 5: Aesthetic Analysis. Like the style-guide, many fake and questionable news sites utilize very bad design. Are screens are cluttered and they use heavy-handed photo-shopping or born digital images?
+Step 6: Social Media Analysis. Look up the website on Facebook. Do the headlines and posts rely on sensational or provocative language (aka click-bait) in order to attract attention and encourage likes, click-throughs, and shares? Do the headlines and social media descriptions match or accurately reflect the content of the linked article? (this step isn’t particularly good at helping us find fake news, but it can help us identify other misleading news sources)
+By considering all of these areas of information we can determine which category or categories a website may occupy, although all categorizations are by necessity open to discussion and revision. For more information about analyzing the credibility of sources, please see this resource.
+Disclaimer The information contained in this site is for informational and educational purposes only. We have made every attempt to ensure that the information contained in this site and in our downloadable data is reliable; however, we are not responsible for any errors, or for the results obtained from the use of this information. All information in this site is provided “as is” and “as available,” with no guarantee of accuracy, reliability, completeness, or of the services or results obtained from the use of this information. By using OpenSources, you expressly agree that the use of OpenSources and its data is at your sole risk.",Propri,"È sempre la roba di Melissa Zimdars - articolo, doc",
+Fighting misinformation on social media using crowdsourced judgments of news source quality,https://www.pnas.org/doi/epdf/10.1073/pnas.1806781116,No,https://osf.io/6bptd/,Articolo scientifico,Sì,No,Giornalisti e utenti non specializzati,Studio realizzato tramite crowdsourcing che mette a confronto due gruppi di valutatori non professionali  con uno di professionali che utilizza dei criteri non automatizzabili (vedere la sezione Procedure),Propri,,
+Snopes,https://www.snopes.com/,No,https://www.snopes.com/news/2016/01/14/fake-news-sites/,Società,"No, ma distingue in categorie che sono state astratte in uno score dallo studio di ""High level of agreement across different news domain quality ratings""",No,Giornalisti,No,Propri,Fonte,
